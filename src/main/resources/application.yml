@@ -1,0 +1,14 @@
+server:
+  port: 8081
+#spring.r2dbc.url=r2dbc:mysql:localhost:3306/book_work
+spring:
+  application:
+    name: reactive-programming
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/book_work
+    username: postgres
+    password: password
+  flyway:
+    url: jdbc:postgresql://localhost:5432/book_work
+    username: postgres
+    password: password
